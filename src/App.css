@@ -6,6 +6,10 @@
   max-width: 330px;
 }
 
+.card__icon {
+  margin-bottom: 2rem;
+}
+
 .card__title {
   color: rgb(242, 242, 242);
   font-family: "Big Shoulders Display", sans-serif;
