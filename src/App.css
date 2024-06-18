@@ -8,6 +8,7 @@
 .card__title {
   color: rgb(242, 242, 242);
   font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
 }
