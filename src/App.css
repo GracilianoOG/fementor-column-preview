@@ -15,6 +15,7 @@
 
 .card_description {
   color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
 }
 
 .card_btn {
