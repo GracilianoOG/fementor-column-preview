@@ -5,9 +5,9 @@ function App() {
     <div>
       <div className='card'>
         <h2 className='card__title'>Sedans</h2>
-        <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        <p className='card_description'>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
         or on your next road trip.</p>
-        <a href="#">Learn more</a>
+        <a href="#" className='card_btn'>Learn more</a>
       </div>
     </div>
   )
