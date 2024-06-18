@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+.card__title {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.card_description,
+.card_btn {
+  font-family: "Lexend Deca", sans-serif;
+}
