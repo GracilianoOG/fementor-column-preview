@@ -2,6 +2,7 @@
 
 .card {
   background-color: #e38826;
+  padding: 3rem;
 }
 
 .card__title {
