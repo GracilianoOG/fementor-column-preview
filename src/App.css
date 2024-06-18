@@ -15,6 +15,11 @@
   color: rgba(255, 255, 255, 0.75);
 }
 
+.card_btn {
+  background-color: rgb(242, 242, 242);
+  color: rgb(227, 136, 38);
+}
+
 .card_description,
 .card_btn {
   font-family: "Lexend Deca", sans-serif;
