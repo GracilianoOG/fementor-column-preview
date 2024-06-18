@@ -2,9 +2,11 @@
 
 .card__title {
   font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
 }
 
 .card_description,
 .card_btn {
   font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
