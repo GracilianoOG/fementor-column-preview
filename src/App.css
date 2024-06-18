@@ -21,6 +21,9 @@
 .card_btn {
   background-color: rgb(242, 242, 242);
   color: rgb(227, 136, 38);
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
 }
 
 .card_description,
