@@ -10,6 +10,10 @@
   text-transform: uppercase;
 }
 
+.card_description {
+  color: rgba(255, 255, 255, 0.75);
+}
+
 .card_description,
 .card_btn {
   font-family: "Lexend Deca", sans-serif;
