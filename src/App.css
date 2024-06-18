@@ -26,7 +26,7 @@
   margin-bottom: 2rem;
 }
 
-.card_btn {
+.card__btn {
   background-color: rgb(242, 242, 242);
   color: rgb(227, 136, 38);
   display: inline-block;
@@ -35,7 +35,7 @@
 }
 
 .card_description,
-.card_btn {
+.card__btn {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
 }
