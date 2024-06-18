@@ -3,6 +3,7 @@
 .card__title {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .card_description,
