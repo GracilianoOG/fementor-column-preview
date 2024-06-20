@@ -3,7 +3,9 @@ import './CardWrapper.css'
 function CardWrapper({ children }) {
   return (
     <div className='card-wrapper'>
-      {children}
+      <div className='card-wrapper__content'>
+        {children}
+      </div>
     </div>
   )
 }
