@@ -1,0 +1,6 @@
+.card-wrapper {
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
