@@ -7,7 +7,7 @@
 }
 
 .card-wrapper__content {
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;
