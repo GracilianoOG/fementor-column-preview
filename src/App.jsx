@@ -9,7 +9,7 @@ function App() {
     <div>
       <Card 
         icon={iconSedan} 
-        title="Sedan" 
+        title="Sedans" 
         color="rgb(227, 136, 38)"
         description="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
     or on your next road trip." 
