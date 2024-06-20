@@ -3,10 +3,11 @@ import iconSedan from './assets/images/icon-sedans.svg'
 import iconSuv from './assets/images/icon-suvs.svg'
 import iconLuxury from './assets/images/icon-luxury.svg'
 import Card from './Card.jsx'
+import CardWrapper from './CardWrapper.jsx'
 
 function App() {
   return (
-    <div className='card-wrapper'>
+    <CardWrapper>
       <Card 
         icon={iconSedan} 
         title="Sedans" 
@@ -28,7 +29,7 @@ function App() {
         description="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
   rental and arrive in style." 
       />
-    </div>
+    </CardWrapper>
   )
 }
 
