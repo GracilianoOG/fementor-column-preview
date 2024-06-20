@@ -26,6 +26,7 @@
   background-color: rgb(242, 242, 242);
   border-radius: 3rem;
   display: inline-block;
+  font-size: 0.938rem;
   padding: 1rem 2rem;
   text-transform: capitalize;
 }
