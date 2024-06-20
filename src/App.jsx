@@ -6,7 +6,7 @@ import Card from './Card.jsx'
 
 function App() {
   return (
-    <div>
+    <div className='card-wrapper'>
       <Card 
         icon={iconSedan} 
         title="Sedans" 

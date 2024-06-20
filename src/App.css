@@ -7,7 +7,7 @@
   min-height: 100vh;
 }
 
-#root > div {
+.card-wrapper {
   border-radius: 0.75rem;
   display: flex;
   flex-direction: column;
