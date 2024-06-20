@@ -11,10 +11,12 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  max-width: 330px;
 }
 
 @media screen and (min-width: 1024px) {
   .card-wrapper__content {
     flex-direction: row;
+    max-width: 910px;
   }
 }
