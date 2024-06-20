@@ -24,9 +24,10 @@
 
 .card__btn {
   background-color: rgb(242, 242, 242);
+  border-radius: 3rem;
   display: inline-block;
   padding: 1rem 2rem;
-  border-radius: 3rem;
+  text-transform: capitalize;
 }
 
 .card__description,
