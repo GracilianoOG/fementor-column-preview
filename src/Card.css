@@ -33,10 +33,10 @@
   transition: background-color 0.2s, color 0.2s;
 }
 
-.card__btn:hover {
+/* .card__btn:hover {
   background-color: transparent;
   color: var(--light-gray) !important;
-}
+} */
 
 .card__description,
 .card__btn {
