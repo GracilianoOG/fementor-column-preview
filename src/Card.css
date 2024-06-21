@@ -1,3 +1,8 @@
+:root {
+  --light-gray: rgb(242, 242, 242);
+  --transparent-white: rgba(255, 255, 255, 0.75);
+}
+
 .card {
   padding: 3rem;
 }
@@ -7,7 +12,7 @@
 }
 
 .card__title {
-  color: rgb(242, 242, 242);
+  color: var(--light-gray);
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
@@ -16,15 +21,15 @@
 }
 
 .card__description {
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--transparent-white);;
   font-size: 0.938rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
 
 .card__btn {
-  background-color: rgb(242, 242, 242);
-  border: 2px solid rgb(242, 242, 242);
+  background-color: var(--light-gray);;
+  border: 2px solid var(--light-gray);;
   border-radius: 3rem;
   display: inline-block;
   font-size: 0.938rem;
