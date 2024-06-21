@@ -21,15 +21,15 @@
 }
 
 .card__description {
-  color: var(--transparent-white);;
+  color: var(--transparent-white);
   font-size: 0.938rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
 
 .card__btn {
-  background-color: var(--light-gray);;
-  border: 2px solid var(--light-gray);;
+  background-color: var(--light-gray);
+  border: 2px solid var(--light-gray);
   border-radius: 3rem;
   display: inline-block;
   font-size: 0.938rem;
