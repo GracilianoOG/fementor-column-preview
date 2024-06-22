@@ -4,6 +4,7 @@ import iconSuv from './assets/images/icon-suvs.svg'
 import iconLuxury from './assets/images/icon-luxury.svg'
 import Card from './Card.jsx'
 import CardWrapper from './CardWrapper.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
   return (
@@ -33,12 +34,7 @@ function App() {
           />
         </CardWrapper>
       </main>
-      <footer style={{position: "absolute", bottom: "0", width: "100%", textAlign: "center", fontSize: "15px"}}>
-        <p className="attribution">
-          <span className="attribution__challenger">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </span>
-          <span className="attribution__coder">Coded by <a href="#">Gabriel</a>.</span>
-        </p>
-      </footer>
+      <Footer />
     </>
   )
 }
