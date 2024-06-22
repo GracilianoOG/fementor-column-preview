@@ -16,4 +16,5 @@ body {
   background-color: var(--light-gray);
   font-size: 100%;
   list-style-type: none;
+  position: relative;
 }
