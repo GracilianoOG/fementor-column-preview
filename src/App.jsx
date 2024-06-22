@@ -7,31 +7,39 @@ import CardWrapper from './CardWrapper.jsx'
 
 function App() {
   return (
-    <main>
-      <CardWrapper>
-        <Card 
-          icon={iconSedan} 
-          title="Sedans" 
-          color="rgb(227, 136, 38)"
-          description="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-      or on your next road trip." 
-        />
-        <Card 
-          icon={iconSuv} 
-          title="SUVs" 
-          color="rgb(0, 105, 112)"
-          description="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-    and off-road adventures." 
-        />
-        <Card 
-          icon={iconLuxury} 
-          title="Luxury" 
-          color="rgb(0, 66, 65)"
-          description="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-    rental and arrive in style." 
-        />
-      </CardWrapper>
-    </main>
+    <>
+      <main>
+        <CardWrapper>
+          <Card 
+            icon={iconSedan} 
+            title="Sedans" 
+            color="rgb(227, 136, 38)"
+            description="Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+        or on your next road trip." 
+          />
+          <Card 
+            icon={iconSuv} 
+            title="SUVs" 
+            color="rgb(0, 105, 112)"
+            description="Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+      and off-road adventures." 
+          />
+          <Card 
+            icon={iconLuxury} 
+            title="Luxury" 
+            color="rgb(0, 66, 65)"
+            description="Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+      rental and arrive in style." 
+          />
+        </CardWrapper>
+      </main>
+      <footer style={{position: "absolute", bottom: "0", width: "100%", textAlign: "center", fontSize: "15px"}}>
+        <p className="attribution">
+          <span className="attribution__challenger">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </span>
+          <span className="attribution__coder">Coded by <a href="#">Gabriel</a>.</span>
+        </p>
+      </footer>
+    </>
   )
 }
 
