@@ -2,13 +2,6 @@
 
 This project consists of a 3-column preview card component made with React and Vite, responsive for mobile and monitors. The challenge was provided by Frontend Mentor.
 
-## 📖 Table of contents
-
-- [The challenge](#-the-challenge)
-- [Built with](#-built-with)
-- [Useful resources](#-useful-resources)
-- [Author](#-author)
-
 ## 🎯 The challenge
 
 Users should be able to:
