@@ -4,10 +4,10 @@ This project consists of a 3-column preview card component made with React and V
 
 ## 📖 Table of contents
 
-- [The challenge](#🎯-the-challenge)
-- [Built with](#🧱-built-with)
-- [Useful resources](#🛠️-useful-resources)
-- [Author](#🧑🏻‍💻-author)
+- [The challenge](#-the-challenge)
+- [Built with](#-built-with)
+- [Useful resources](#-useful-resources)
+- [Author](#-author)
 
 ## 🎯 The challenge
 
