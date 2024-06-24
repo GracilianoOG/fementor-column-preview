@@ -7,8 +7,8 @@ function Footer() {
   return (
     <footer>
       <p className="attribution">
-        <span className="attribution__challenger">Challenge by <a href={CHALLENGE_LINK}>Frontend Mentor</a>. </span>
-        <span className="attribution__coder">Coded by <a href={AUTHOR_LINK}>Gabriel</a>.</span>
+        <span className="attribution__challenger">Challenge by <a className="link" href={CHALLENGE_LINK}>Frontend Mentor</a>. </span>
+        <span className="attribution__coder">Coded by <a className="link" href={AUTHOR_LINK}>Gabriel</a>.</span>
       </p>
     </footer>
   )
