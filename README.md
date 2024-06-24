@@ -19,6 +19,7 @@ Users should be able to:
 
 ## 🛠️ Useful resources
 
+- [Accessible Links](https://htmldog.com/guides/html/advanced/links/)
 - [Como implementar hover no estilo inline do React JS](https://horadecodar.com.br/como-implementar-hover-no-estilo-inline-do-react-js/) - Portuguese article that shows how to implement hover styles regarding inline css
 - [How to Style Your React Apps with CSS Like a Pro](https://www.freecodecamp.org/news/style-react-apps-with-css/) - Tips on how to implement css in different ways with React
 - [Inline CSS styles in React: how to implement a:hover?](https://stackoverflow.com/questions/28365233/inline-css-styles-in-react-how-to-implement-ahover) - Good ideas there to implement inline hover
