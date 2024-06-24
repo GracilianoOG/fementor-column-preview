@@ -15,7 +15,7 @@ function Card({ icon, title, description, color }) {
   }
 
   return (
-    <div className='card' style={{backgroundColor: color}}>
+    <article className='card' style={{backgroundColor: color}}>
       <img className='card__icon' src={icon} alt="" />
       <h2 className='card__title'>{ title }</h2>
       <p className='card__description'>{ description }</p>
@@ -26,7 +26,7 @@ function Card({ icon, title, description, color }) {
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
       >Learn more</a>
-    </div>
+    </article>
   )
 }
 
