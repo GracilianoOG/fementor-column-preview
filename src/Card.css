@@ -1,5 +1,6 @@
 .card {
   padding: 3rem;
+  max-width: 330px;
 }
 
 .card__icon {
@@ -45,6 +46,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .card {
+    max-width: 306px;
+  }
+
   .card__description {
     margin-bottom: 5rem;
   }
