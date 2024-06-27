@@ -16,6 +16,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- [Vite](https://vitejs.dev/)
 
 ## 🛠️ Useful resources
 
