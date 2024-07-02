@@ -5,8 +5,8 @@ function Footer() {
   const AUTHOR_LINK = "https://github.com/GracilianoOG"
   
   return (
-    <footer>
-      <p className="attribution">
+    <footer className="attribution">
+      <p className="attribution__content">
         <span className="attribution__challenger">Challenge by <a className="link" href={CHALLENGE_LINK}>Frontend Mentor</a>. </span>
         <span className="attribution__coder">Coded by <a className="link" href={AUTHOR_LINK}>Gabriel</a>.</span>
       </p>
