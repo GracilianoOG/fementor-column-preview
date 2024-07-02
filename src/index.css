@@ -10,6 +10,7 @@
 :root {
   --light-gray: rgb(242, 242, 242);
   --transparent-white: rgba(255, 255, 255, 0.75);
+  --red: rgb(176, 29, 14);
 }
 
 body {
