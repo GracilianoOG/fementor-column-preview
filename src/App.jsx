@@ -1,6 +1,6 @@
 import './App.css'
-import Footer from './Footer.jsx'
-import Main from './Main.jsx'
+import Footer from './components/Footer.jsx'
+import Main from './components/Main.jsx'
 
 function App() {
   return (

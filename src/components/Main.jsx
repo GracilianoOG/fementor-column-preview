@@ -1,6 +1,6 @@
-import iconSedan from './assets/images/icon-sedans.svg'
-import iconSuv from './assets/images/icon-suvs.svg'
-import iconLuxury from './assets/images/icon-luxury.svg'
+import iconSedan from '../assets/images/icon-sedans.svg'
+import iconSuv from '../assets/images/icon-suvs.svg'
+import iconLuxury from '../assets/images/icon-luxury.svg'
 import Card from './Card.jsx'
 import CardWrapper from './CardWrapper.jsx'
 
