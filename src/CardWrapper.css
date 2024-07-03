@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 62rem) {
   .card-wrapper {
-    padding: 2rem 1rem;
+    padding: 0;
   }
 
   .card-wrapper__content {
