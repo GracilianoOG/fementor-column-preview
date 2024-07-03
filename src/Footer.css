@@ -1,6 +1,6 @@
 .attribution {
   bottom: 0.313rem;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: var(--font-lexeca);
   font-size: 0.938rem;
   position: absolute;
   text-align: center;
