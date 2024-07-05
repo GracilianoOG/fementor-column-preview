@@ -14,6 +14,7 @@
   --red: rgb(176, 29, 14);
   --font-big-shouders: "Big Shoulders Display", sans-serif;
   --font-lexeca: "Lexend Deca", sans-serif;
+  --border-radius-card: 0.5rem;
 }
 
 body {
