@@ -3,6 +3,14 @@
   max-width: 37.5rem;
 }
 
+.card:first-child {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card:last-child {
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
 .card__icon {
   margin-bottom: 2rem;
 }
@@ -48,6 +56,14 @@
 @media screen and (min-width: 62rem) {
   .card {
     max-width: 19.125rem;
+  }
+
+  .card:first-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  
+  .card:last-child {
+    border-radius: 0 0.5rem 0.5rem 0;
   }
 
   .card__description {
