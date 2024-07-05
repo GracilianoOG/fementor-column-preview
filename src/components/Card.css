@@ -1,6 +1,7 @@
 .card {
+  align-self: stretch;
+  flex: 1 361.5px;
   padding: 3rem;
-  max-width: var(--width-card-mobile);
 }
 
 .card:first-child {
