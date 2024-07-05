@@ -56,6 +56,7 @@
 @media screen and (min-width: 62rem) {
   .card {
     max-width: 19.125rem;
+    transition: border-radius 0.2s, box-shadow 0.2s, transform 0.2s;
   }
 
   .card:first-child {
@@ -64,6 +65,13 @@
   
   .card:last-child {
     border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  .card:hover {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px var(--transparent-black);
+    transform: scale(1.02);
+    z-index: 1;
   }
 
   .card__description {
