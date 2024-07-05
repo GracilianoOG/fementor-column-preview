@@ -1,6 +1,6 @@
 .card {
   align-self: stretch;
-  flex: 1 361.5px;
+  flex: 1 22.594rem;
   padding: 3rem;
 }
 
@@ -49,7 +49,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .card:first-child {
     border-radius: var(--border-radius-card) 0 0 0;
   }
@@ -79,7 +79,7 @@
 
   .card:hover {
     border-radius: var(--border-radius-card);
-    box-shadow: 0 0 15px var(--transparent-black);
+    box-shadow: 0 0 0.938rem var(--transparent-black);
     transform: scale(1.02);
     z-index: 1;
   }
