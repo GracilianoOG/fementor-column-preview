@@ -49,6 +49,16 @@
   font-weight: 400;
 }
 
+@media screen and (min-width: 768px) {
+  .card:first-child {
+    border-radius: var(--border-radius-card) 0 0 0;
+  }
+
+  .card:nth-child(2n) {
+    border-radius: 0 var(--border-radius-card) 0 0;
+  }
+}
+
 @media screen and (min-width: 62rem) {
   .card {
     max-width: var(--width-card-desktop);
