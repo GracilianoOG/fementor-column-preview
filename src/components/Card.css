@@ -1,6 +1,6 @@
 .card {
   padding: 3rem;
-  max-width: 37.5rem;
+  max-width: var(--width-card-mobile);
 }
 
 .card:first-child {
@@ -50,7 +50,7 @@
 
 @media screen and (min-width: 62rem) {
   .card {
-    max-width: 19.125rem;
+    max-width: var(--width-card-desktop);
     transition: border-radius 0.2s, box-shadow 0.2s, transform 0.2s;
   }
 
