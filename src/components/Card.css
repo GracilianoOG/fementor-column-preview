@@ -4,11 +4,11 @@
 }
 
 .card:first-child {
-  border-radius: 0.5rem 0.5rem 0 0;
+  border-radius: var(--border-radius-card) var(--border-radius-card) 0 0;
 }
 
 .card:last-child {
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 var(--border-radius-card) var(--border-radius-card);
 }
 
 .card__icon {
@@ -60,15 +60,15 @@
   }
 
   .card:first-child {
-    border-radius: 0.5rem 0 0 0.5rem;
+    border-radius: var(--border-radius-card) 0 0 var(--border-radius-card);
   }
   
   .card:last-child {
-    border-radius: 0 0.5rem 0.5rem 0;
+    border-radius: 0 var(--border-radius-card) var(--border-radius-card) 0;
   }
 
   .card:hover {
-    border-radius: 0.5rem;
+    border-radius: var(--border-radius-card);
     box-shadow: 0 0 15px var(--transparent-black);
     transform: scale(1.02);
     z-index: 1;
