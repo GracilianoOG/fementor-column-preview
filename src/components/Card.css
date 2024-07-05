@@ -68,6 +68,10 @@
   .card:first-child {
     border-radius: var(--border-radius-card) 0 0 var(--border-radius-card);
   }
+
+  .card:nth-child(2n) {
+    border-radius: 0;
+  }
   
   .card:last-child {
     border-radius: 0 var(--border-radius-card) var(--border-radius-card) 0;
