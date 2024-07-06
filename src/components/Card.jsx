@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './Card.css'
 
-function Card({ icon, title, description, color }) {
+function Card({ icon, title, description, color: customColor }) {
   const [isHover, setIsHover] = useState(false)
   const BG_COLOR = 'rgb(242, 242, 242)'
 
   const btnNormal = {
     backgroundColor: BG_COLOR,
-    color: color
+    color: customColor
   }
 
   const btnHover = {
@@ -16,7 +16,7 @@ function Card({ icon, title, description, color }) {
   }
 
   return (
-    <article className='card' style={{backgroundColor: color}}>
+    <article className='card' style={{backgroundColor: customColor}}>
       <img className='card__icon' src={icon} alt="" />
       <h2 className='card__title'>{ title }</h2>
       <p className='card__description'>{ description }</p>
