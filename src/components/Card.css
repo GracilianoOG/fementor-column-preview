@@ -18,7 +18,7 @@
 }
 
 .card__title {
-  color: var(--light-gray);
+  color: var(--color-light-gray);
   font-family: var(--font-big-shouders);
   font-size: var(--font-size-title);
   font-weight: 700;
@@ -27,15 +27,15 @@
 }
 
 .card__description {
-  color: var(--transparent-white);
+  color: var(--color-transparent-white);
   font-size: var(--font-size-text);
   line-height: 1.7;
   margin-bottom: calc(var(--padding-card) + var(--margin-card-description));
 }
 
 .card__btn {
-  background-color: var(--light-gray);
-  border: 0.125rem solid var(--light-gray);
+  background-color: var(--color-light-gray);
+  border: 0.125rem solid var(--color-light-gray);
   border-radius: 3rem;
   bottom: 0;
   display: inline-block;
@@ -84,7 +84,7 @@
 
   .card:hover {
     border-radius: var(--border-radius-card);
-    box-shadow: 0 0 0.938rem var(--transparent-black);
+    box-shadow: 0 0 0.938rem var(--color-transparent-black);
     transform: scale(1.02);
     z-index: 1;
   }
