@@ -3,7 +3,7 @@ import './Card.css'
 
 function Card({ icon, title, description, color: customColor }) {
   const [isHover, setIsHover] = useState(false)
-  const BG_COLOR = 'rgb(242, 242, 242)'
+  const BG_COLOR = 'var(--color-light-gray)'
 
   const btnNormal = {
     backgroundColor: BG_COLOR,
