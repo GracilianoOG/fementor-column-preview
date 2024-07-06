@@ -19,6 +19,7 @@
   --border-radius-card: 0.5rem;
   --width-card-mobile: 37.5rem;
   --width-card-desktop: 19.125rem;
+  --padding-card: 3rem;
 }
 
 body {
