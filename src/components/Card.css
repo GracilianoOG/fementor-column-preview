@@ -1,6 +1,6 @@
 .card {
   align-self: stretch;
-  flex: 1 22.594rem;
+  flex: 1 var(--width-card-mobile);
   padding: var(--padding-card);
   position: relative;
 }
