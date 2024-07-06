@@ -1,6 +1,4 @@
 body {
   background-color: var(--color-light-gray);
-  font-size: 100%;
-  list-style-type: none;
   position: relative;
 }
