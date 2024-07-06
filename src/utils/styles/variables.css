@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --color-light-gray: rgb(242, 242, 242);
+  --color-red: rgb(176, 29, 14);
+  --color-transparent-white: rgba(255, 255, 255, 0.75);
+  --color-transparent-black: rgba(0, 0, 0, 0.35);
+
+  /* Fonts */
+  --font-big-shouders: "Big Shoulders Display", sans-serif;
+  --font-lexeca: "Lexend Deca", sans-serif;
+  --font-size-title: 2.5rem;
+  --font-size-text: 0.938rem;
+
+  /* Spacing */
+  --border-radius-card: 0.5rem;
+  --margin-card-description: 2rem;
+  --padding-card: 3rem;
+  --width-card-desktop: 19.125rem;
+  --width-card-mobile: 37.5rem;
+}
