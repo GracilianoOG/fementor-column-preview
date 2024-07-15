@@ -7,6 +7,7 @@ import CardWrapper from './CardWrapper.jsx'
 function Main() {
   return (
     <main>
+      <h1 className="sr-only">3-column preview card component</h1>
       <CardWrapper>
         <Card 
           icon={iconSedan} 
